@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FlavorTextDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../../../data/Schema/FlavorText.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- MilkyWay_FlavorText.xml -->
+
+  <FlavorTextDef>
+    <InternalName>ExampleCampaign_EndingFlavorText_Success</InternalName>
+    <FlavorTextOption>
+      <Text>The Terran Alliance has proven its superiority and brought order to the galaxy.</Text>
+    </FlavorTextOption>
+  </FlavorTextDef>
+
+  <FlavorTextDef>
+    <InternalName>ExampleCampaign_EndingFlavorText_Failure</InternalName>
+    <FlavorTextOption>
+      <Text>The Terran Alliance is no longer a force in the galaxy. It would have better for them if they had hidden on their homeworld. They were not ready for the challenges a relentless galaxy held for them.</Text>
+    </FlavorTextOption>
+  </FlavorTextDef>
+
+</FlavorTextDefs>

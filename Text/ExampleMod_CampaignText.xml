@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StringTableList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- CampaignText.XML -->
+
+  <StringTable>
+    <Label>ExampleCampaign_Name</Label>
+    <String>Example Campaign</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>ExampleCampaign_ExampleScenario_Name</Label>
+    <String>Example Scenario</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>ExampleCampaign_ExampleScenario_Dec</Label>
+    <String>XPlay as the Terran Alliance, starting at Earth and exploring the Galactic Civilizations galaxy.</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>ExampleCampaign_ExampleScenario_ShortDec</Label>
+    <String>XPlay as the Terran Alliance, starting at Earth and exploring the Galactic Civilizations galaxy.</String>
+  </StringTable>
+  <StringTable>
+    <Label>ExampleCampaign_ExampleScenario_FACTION_TERRAN_Name</Label>
+    <String>Terran Alliance</String>
+  </StringTable>
+  <StringTable>
+    <Label>ExampleCampaign_ExampleScenario_FACTION_DRENGIN_Name</Label>
+    <String>Drengin Empire</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>ExampleCampaign_ExampleScenario_Win_Message</Label>
+    <String>All paths to victory are open.</String>
+  </StringTable>
+
+</StringTableList>

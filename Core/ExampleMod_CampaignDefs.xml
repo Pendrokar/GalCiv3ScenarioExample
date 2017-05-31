@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<CampaignList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/CampaignDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- MilkyWay_CampaignDefs.xml -->
+
+  <Campaign>
+    <InternalName>ExampleCampaign</InternalName>
+    <DisplayName>ExampleCampaign_Name</DisplayName>
+    <IsTutorial>0</IsTutorial>
+
+    <Scenario>
+      <InternalName>ExampleCampaign_ExampleScenario</InternalName>
+      <DisplayName>ExampleCampaign_ExampleScenario_Name</DisplayName>
+      <Description>ExampleCampaign_ExampleScenario_Dec</Description>
+      <ShortDescription>ExampleCampaign_ExampleScenario_ShortDec</ShortDescription>
+      <Image>ExampleScenario.png</Image>
+      <StartingYearOverride>2155</StartingYearOverride>
+      <VictoryConditions>
+        <Conquest>1</Conquest>
+        <Research>1</Research>
+        <Alliance>1</Alliance>
+        <Influence>1</Influence>
+        <Ascension>1</Ascension>
+        <TurnLimit>1</TurnLimit>
+        <UnitedPlanets>0</UnitedPlanets>
+      </VictoryConditions>
+      <EndGameOverviewFlavorText_Success>ExampleCampaign_EndingFlavorText_Success</EndGameOverviewFlavorText_Success>
+      <EndGameOverviewFlavorText_Failure>ExampleCampaign_EndingFlavorText_Failure</EndGameOverviewFlavorText_Failure>
+      <DisableMinorRaces>true</DisableMinorRaces>
+      <DisableUnitedPlanets>true</DisableUnitedPlanets>
+      <DisableAISurrender>true</DisableAISurrender>
+      <DisableAIPeaceCheck>true</DisableAIPeaceCheck>
+      <DisableMercenaries>true</DisableMercenaries>
+      <TurnsWithoutAIInteraction>1</TurnsWithoutAIInteraction>
+      <ScenarioTriggerSet>ExampleCampaign_ExampleScenario_TriggerSet</ScenarioTriggerSet>
+      <Player>
+        <Faction>FACTION_TERRAN</Faction>
+        <PreviewDisplayName>FACTION_TERRAN_Name</PreviewDisplayName>
+        <IsHuman>1</IsHuman>
+        <CampaignID>ExampleCampaign_ExampleScenario_FACTION_TERRAN</CampaignID>
+      </Player>
+      <Player>
+        <Faction>FACTION_DRENGIN</Faction>
+        <PreviewDisplayName>FACTION_DRENGIN_Name</PreviewDisplayName>
+        <IsHuman>0</IsHuman>
+        <CampaignID>ExampleCampaign_ExampleScenario_FACTION_DRENGIN</CampaignID>
+      </Player>
+      <Objective>
+        <InternalName>ExampleCampaign_ExampleScenario_Win_Objective</InternalName>
+        <Description>ExampleCampaign_ExampleScenario_Win_Message</Description>
+        <StartEnabled>true</StartEnabled>
+        <VictoryObjective>false</VictoryObjective>
+        <FailureObjective>false</FailureObjective>
+      </Objective>
+    </Scenario>
+
+  </Campaign>
+
+</CampaignList>
